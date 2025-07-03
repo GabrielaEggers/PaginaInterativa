@@ -4,6 +4,7 @@ criaCartao(
     'O Python é uma linguagem de programação'
 
 )
+
 criaCartao(
     'Geografia',
     'Qual a capital da França',
