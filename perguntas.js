@@ -1,26 +1,23 @@
-function categoria(categotia, pergunta, resposta) {
-    let container = document.getELementetByI('container')
-    let cartao = document.createElement('article')
-    cartao.className = 'cartao'
+criaCartao(
+    'Programação',
+    'O que é Python?',
+    'O Python é uma linguagem de programação'
+)
 
-    cartao.innerHTML =
-    <div clas="cartao_conteuso">
-        <h3>${categoria}</h3>
-        <div class="cartao_conteudo_pergunta">
-            <p>${pergunta}</p>
-    </div>
-    <div class="cartao_conteu0_respota">
-        <p>${resposta}</p>
-    </div>
-    </div>
+criaCartao(
+    'Geografia',
+    'Qual a capital da França?',
+    'A capital da França é Paris'
+)
 
-    let respostaEstaVisivel = false
+criaCartao(
+    'Programação',
+    'O que é uma função?',
+    'Uma função é um bloco de código que executa alguma tarefa'
+)
 
-    function viraCartao() {
-        respostaEstaVisivel = !respostaEstaVisivel
-        cartao.classList.toggle('active' respostaEstaVisivel)
-    }
-    cartao.addEventListener('click', viraCartao)
-
-
-    container.appenChil(cartao)
+criaCartao(
+    'Lingua inglesa',
+    'Como se diz oi em Inglês?',
+    'Oi em ingles é HI (RAI)'
+)
